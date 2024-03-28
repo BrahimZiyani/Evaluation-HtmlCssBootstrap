@@ -1,3 +1,23 @@
-@media (max-width: 768px) {
+/* Media query for small screens (mobile) */
+@media (max-width: 576px) {
+    /* Specific styles for small mobile screens here */
+    body {
+        font-size: 14px;
+    }
+}
 
+/* Media query for tablets */
+@media (min-width: 768px) {
+    /* Specific styles for tablets here */
+    .container {
+        max-width: 768px;
+    }
+}
+
+/* Media query for large screens (desktop) */
+@media (min-width: 992px) {
+    /* Specific styles for large screens here */
+    .navbar {
+        padding: 10px;
+    }
 }
